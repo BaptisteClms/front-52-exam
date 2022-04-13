@@ -1,0 +1,33 @@
+.globalLaniste {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Media/BgLaniste.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgLaniste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(169, 126, 75, 0.79);
+    border-radius: 70px;
+    margin: 50px;
+}
+
+.btnLaniste {
+    background-color: #88561C;
+    padding: 15px;
+    border-radius: 48px;
+    width: 200px;
+    height: 55px;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+
+.centerLaniste {
+    height: 100vh;
+}

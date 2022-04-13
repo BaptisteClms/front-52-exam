@@ -1,0 +1,43 @@
+.globalLogin {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Media/BgRegister.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgLogin {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    background-color: rgba(169, 126, 75, 0.79);
+    border-radius: 70px;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+}
+
+.paddingLogin, .form-group {
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+.btnLogin {
+    background-color: #88561C;
+    padding: 15px;
+    border-radius: 48px;
+    width: 200px;
+    height: 55px;
+    color: whitesmoke;
+    margin-top: 30px;
+}

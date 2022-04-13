@@ -1,0 +1,43 @@
+.globalRegister {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Media/BgRegister.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgRegister {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    background-color: rgba(169, 126, 75, 0.79);
+    border-radius: 70px;
+}
+
+.formRegister {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+}
+
+.paddingRegister, .form-group {
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+.btnRegister {
+    background-color: #88561C;
+    padding: 15px;
+    border-radius: 48px;
+    width: 200px;
+    height: 55px;
+    color: whitesmoke;
+    margin-top: 30px;
+}
